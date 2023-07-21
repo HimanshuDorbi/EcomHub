@@ -1,4 +1,5 @@
 import './App.css';
+// import StripeCheckout from 'react-stripe-checkout';
 import Header from './components/Header';
 import Footer from './components/Footer'
 import Home from './components/Home'
@@ -11,8 +12,10 @@ import Cart from './components/Cart';
 import Checkout from './components/Checkout'
 
 function App() {
+  
   return (
     <>
+     
       <Header/>
       <Switch>
         <Route exact path="/" component={Home} />
